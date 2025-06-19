@@ -22,5 +22,3 @@ LOG_FILE = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.log"
 os.makedirs("logs", exist_ok=True)
 
 
-# тестовый режим сколько собирать
-CLOSESPIDER_ITEMCOUNT = 5
